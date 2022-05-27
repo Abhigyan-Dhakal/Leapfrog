@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

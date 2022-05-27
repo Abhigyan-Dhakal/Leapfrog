@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/layout.css" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar clearfix">
+        <div class="logo clearfix">UI Kit</div>
+        <div>
+          <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="./index.html">Colors</a></li>
+            <li class="nav-menu-item">
+              <a href="./typography.html">Typography</a>
+            </li>
+            <li class="nav-menu-item"><a href="./buttons.html">Buttons</a></li>
+            <li class="nav-menu-item"><a href="./forms.html">Forms</a></li>
+            <li class="nav-menu-item">
+              <a href="./list-group.html">List Group</a>
+            </li>
+            <li class="nav-menu-item"><a href="./tables.html">Table</a></li>
+            <li class="nav-menu-item"><a href="./card.html">Card</a></li>
+          </ul>
+        </div>
+        <div class="nav-search clearfix">
+          <form>
+            <input type="text" placeholder="Search" class="nav-search-input" />
+            <input type="submit" class="nav-search-btn" value="Search" />
+          </form>
+        </div>
+      </nav>
+    </header>
+    <section class="section-container top-section-container">
+      <div>
+        <h1 class="page-heading">Forms</h1>
+      </div>
+      <div class="ruler"></div>
+      <div class="clearfix">
+        <div class="float-left components-main">
+          <div class="component-heading">
+            <h2>Components</h2>
+          </div>
+          <div>
+            <div class="components-container content-container">
+              <div class="component-container">
+                <p>Color</p>
+              </div>
+              <div class="component-container">
+                <p>Typography</p>
+              </div>
+              <div class="component-container">
+                <p>Buttons</p>
+              </div>
+              <div class="component-container active-component">
+                <p>Forms</p>
+              </div>
+              <div class="component-container">
+                <p>List Group</p>
+              </div>
+              <div class="component-container">
+                <p>Table</p>
+              </div>
+              <div class="component-container">
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="float-left">
+          <div class="input-form-container">
+            <div class="input-heading-container">
+              <h3>Input</h3>
+            </div>
+            <div>
+              <input type="text" placeholder="Placeholder" class="form-input" />
+            </div>
+          </div>
+          <div class="input-form-container">
+            <div class="input-heading-container">
+              <h3>Select menu</h3>
+            </div>
+            <div>
+              <select name="cars" id="cars" class="form-input">
+                <option value="volvo">Select Menu</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-form-container">
+            <div class="input-heading-container">
+              <h3>Textarea</h3>
+            </div>
+            <div>
+              <textarea
+                class="textarea-input"
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+          </div>
+          <div class="clearfix input-form-container">
+            <div class="input-heading-container">
+              <h3>Checkboxes</h3>
+            </div>
+            <div class="float-left checkbox-left">
+              <div>
+                <div class="input-sub-heading">Checkboxes</div>
+              </div>
+              <div>
+                <div class="checkbox-container">
+                  <input type="checkbox" id="checkbox-1" />
+                  <label class="checkbox-text" for="checkbox-1">
+                    Default Checkbox
+                  </label>
+                </div>
+                <div class="checkbox-container">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    id="checkbox-2"
+                    class="primary-color-text"
+                  />
+                  <label for="checkbox-2" class="checkbox-text">
+                    Default Checkbox
+                  </label>
+                </div>
+                <div class="checkbox-container">
+                  <input type="checkbox" disabled id="checkbox-3" />
+                  <label for="checkbox-3" class="checkbox-text">
+                    Default (disabled))
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="float-left">
+              <div>
+                <div class="input-sub-heading">Checkboxes Inline</div>
+              </div>
+              <div>
+                <div class="checkbox-inline">
+                  <input type="checkbox" id="checkbox-1" />
+                  <label class="checkbox-text" for="checkbox-1">
+                    Default Checkbox
+                  </label>
+                </div>
+                <div class="checkbox-inline">
+                  <input type="checkbox" checked="true" id="checkbox-2" />
+                  <label for="checkbox-2" class="checkbox-text">
+                    Default Checkbox
+                  </label>
+                </div>
+                <div class="checkbox-inline">
+                  <input type="checkbox" disabled id="checkbox-3" />
+                  <label for="checkbox-3" class="checkbox-text">
+                    Default Checkbox
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix input-form-container">
+            <div class="input-heading-container">
+              <h3>Radios</h3>
+            </div>
+            <div class="float-left checkbox-left">
+              <div>
+                <div class="input-sub-heading">Radios</div>
+              </div>
+              <div>
+                <div class="radio-container">
+                  <input type="radio" id="radio-1" />
+                  <label class="checkbox-text" for="radio-1">
+                    Default Radio
+                  </label>
+                </div>
+                <div class="radio-container">
+                  <input type="radio" checked="true" id="radio-2" />
+                  <label for="radio-2" class="checkbox-text">
+                    Selected Radio
+                  </label>
+                </div>
+                <div class="radio-container">
+                  <input type="radio" disabled id="radio-3" />
+                  <label for="radio-3" class="checkbox-text">
+                    Disabled Radio
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="float-left">
+              <div>
+                <div class="input-sub-heading">Radios Inline</div>
+              </div>
+              <div>
+                <div class="checkbox-inline">
+                  <input type="radio" id="radio-1" />
+                  <label class="checkbox-text" for="checkbox-1">
+                    Default Radio
+                  </label>
+                </div>
+                <div class="checkbox-inline">
+                  <input type="radio" checked="true" id="radio-2" />
+                  <label for="radio-2" class="checkbox-text">
+                    Selected Radio
+                  </label>
+                </div>
+                <div class="checkbox-inline">
+                  <input type="radio" disabled id="radio-3" />
+                  <label for="radio-3" class="checkbox-text">
+                    Disabled Radio
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-form-container">
+            <div class="input-heading-container">
+              <h3>Validation</h3>
+            </div>
+            <div class="validation-item-container">
+              <div class="label-container">
+                <label for="">Input Success</label>
+              </div>
+              <div>
+                <input type="text" class="form-input form-input-success" />
+              </div>
+              <!-- <input type="text" placeholder="Placeholder" /> -->
+            </div>
+            <div class="validation-item-container">
+              <div class="label-container">
+                <label for="">Input Error</label>
+              </div>
+              <div>
+                <input type="text" class="form-input form-input-failure" />
+              </div>
+              <!-- <input type="text" placeholder="Placeholder" /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

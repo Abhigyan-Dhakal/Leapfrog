@@ -1,0 +1,289 @@
+.logo {
+  font-weight: 800;
+}
+
+header {
+  background-color: rgb(248, 248, 248);
+}
+
+.nav-menu-item {
+  color: gray;
+  font-size: 12px;
+  margin-right: 8px;
+  letter-spacing: -0.4px;
+}
+
+.nav-menu-item > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav-menu-item > a:hover {
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+
+.nav-search-input {
+  font-size: 12px;
+}
+
+.nav-search-btn {
+  font-size: 10px;
+}
+
+.ruler {
+  border-top: 2px solid rgb(228, 228, 228);
+}
+
+.primary-color-heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.primary-color {
+  background-color: #7749f8;
+}
+
+.primary-dark-color {
+  background-color: #5227cc;
+}
+
+.primary-dark-text {
+  color: #5227cc;
+}
+
+.primary-light-color {
+  background-color: #ebe5fc;
+}
+
+.color-container {
+  height: 70px;
+  width: 160px;
+  border-radius: 7px;
+  /* display: inline; */
+}
+
+.secondary-color {
+  background-color: #007dff;
+}
+
+.secondary-dark-color {
+  background-color: #54595e;
+}
+
+.secondary-light-color {
+  background-color: #abb5be;
+}
+
+.success-color {
+  background-color: #28a745;
+}
+
+.danger-color {
+  background-color: #dc3545;
+}
+
+.warning-color {
+  background-color: #ffc107;
+}
+
+.info-color {
+  background-color: #17a2b8;
+}
+
+.gray-600-color {
+  background-color: #6c757d;
+}
+
+.gray-700-color {
+  background-color: #495057;
+}
+
+.gray-800-color {
+  background-color: #343a40;
+}
+
+.gray-900-color {
+  background-color: #212529;
+}
+
+.article-paragraph {
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  font-size: 14px;
+  word-spacing: 3px;
+}
+
+.article-paragraph-btm {
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  word-spacing: 3px;
+}
+
+.ruler-tab {
+  border-top: 1px solid rgb(228, 228, 228);
+  margin-left: 76px;
+  margin-top: -1px;
+  width: 530px;
+}
+
+.button-heading {
+  font-size: 20px;
+}
+
+.primary-btn {
+  border: none;
+  cursor: pointer;
+  background-color: #5227cc;
+  color: white;
+  padding: 8px 13px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.secondary-btn {
+  border: none;
+  cursor: pointer;
+  background-color: #495057;
+  color: white;
+  padding: 8px 13px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.primary-btn-default {
+  background-color: #7749f8;
+}
+
+.secondary-btn-default {
+  background-color: #6c757d !important;
+}
+
+.primary-outline-btn-default {
+  border: 1px solid #7749f8;
+  background-color: transparent;
+  color: #7749f8;
+}
+
+.secondary-outline-btn-default {
+  border: 1px solid #6c757d;
+  background-color: transparent;
+  color: #6c757d;
+}
+
+.primary-outline-btn-hover {
+  background-color: #7749f8;
+}
+
+.component-heading {
+  margin-bottom: 28px;
+}
+
+.components-container {
+  border: 1px solid rgb(207, 207, 207);
+  width: 260px;
+  border-radius: 5px;
+}
+
+.component-container {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding: 9px 10px;
+}
+
+.content-container-right {
+  padding: 12px 16px;
+}
+
+.component-container:last-child {
+  border-bottom: none;
+}
+
+.active-component {
+  background-color: #7749f8;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  /* border: 1px solid #7749f8; */
+}
+
+.content-date {
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.content-mid-paragraph {
+  font-size: 13px;
+}
+
+.content-end-paragraph {
+  font-size: 11px;
+  color: #6c757d;
+}
+
+.pagination {
+  display: inline;
+  color: #7749f8;
+  border: 1px solid #abb5be;
+  padding: 5px 9px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.pagination-disabled {
+  border: 1px solid #abb5be;
+  color: #abb5be;
+}
+
+.pagination-active {
+  background-color: #7749f8;
+  border: 1px solid #7749f8;
+  color: white;
+}
+
+.card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.card-image-flower {
+  width: 100%;
+  height: auto;
+}
+
+.sub-card-topic {
+  font-size: 11px;
+  margin-top: 4px;
+  color: #9ba1a5;
+}
+
+.yoga-card-img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-2-subtitle {
+  text-align: center;
+  font-size: 12px;
+}
+
+.home-tag-container {
+  background-color: #28a745;
+  display: inline;
+  padding: 4px 6px;
+  color: white;
+  border-radius: 7px;
+}
+
+.post-user-name {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.bottom-card-container {
+  padding: 10px;
+}

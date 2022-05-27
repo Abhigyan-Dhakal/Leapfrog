@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/layout.css" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar clearfix">
+        <div class="logo clearfix">UI Kit</div>
+        <div>
+          <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="./index.html">Colors</a></li>
+            <li class="nav-menu-item">
+              <a href="./typography.html">Typography</a>
+            </li>
+            <li class="nav-menu-item"><a href="./buttons.html">Buttons</a></li>
+            <li class="nav-menu-item"><a href="./forms.html">Forms</a></li>
+            <li class="nav-menu-item">
+              <a href="./list-group.html">List Group</a>
+            </li>
+            <li class="nav-menu-item"><a href="./tables.html">Table</a></li>
+            <li class="nav-menu-item"><a href="./card.html">Card</a></li>
+          </ul>
+        </div>
+        <div class="nav-search clearfix">
+          <form>
+            <input type="text" placeholder="Search" class="nav-search-input" />
+            <input type="submit" class="nav-search-btn" value="Search" />
+          </form>
+        </div>
+      </nav>
+    </header>
+    <section class="section-container top-section-container">
+      <div>
+        <h1 class="page-heading">Tables</h1>
+      </div>
+      <div class="ruler"></div>
+      <div class="clearfix">
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="float-right pagination-container">
+          <div class="pagination pagination-disabled">Prev</div>
+          <div class="pagination pagination-active">1</div>
+          <div class="pagination">2</div>
+          <div class="pagination">3</div>
+          <div class="pagination">Next</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
