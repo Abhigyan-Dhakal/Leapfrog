@@ -287,3 +287,7 @@ header {
 .bottom-card-container {
   padding: 10px;
 }
+
+.content-end-paragraph-active {
+  color: white;
+}
