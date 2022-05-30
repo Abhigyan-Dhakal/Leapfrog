@@ -58,14 +58,12 @@
 .hero-section {
   width: 1200px;
   padding: 0px 20px;
-  /* background-color: red; */
   margin: 0px auto;
   margin-bottom: 42px;
 }
 
 .hero-left-container {
   width: 500px;
-  /* background-color: blue; */
   padding: 40px 0px;
 }
 
@@ -108,7 +106,6 @@
 
 .tasks-section {
   width: 1200px;
-  /* background-color: blue; */
   margin: 0px auto;
   margin-bottom: 72px;
 }
@@ -127,17 +124,13 @@
 }
 
 .task-container-main {
-  /* background-color: green; */
   display: inline-block;
 }
 
 .task-item-container {
   width: 280px;
-  /* background-color: red; */
   align-items: center;
-  /* margin: 0px 10px; */
   text-align: center;
-  /* padding: 0px 4px; */
   margin-right: 25px;
 }
 
@@ -237,7 +230,6 @@
 
 .footer-top-container {
   width: 1200px;
-  /* background-color: red; */
   margin: 0px auto;
 }
 
