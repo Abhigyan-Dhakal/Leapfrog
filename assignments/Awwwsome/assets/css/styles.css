@@ -1,0 +1,295 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  float: left;
+}
+
+.page-header {
+  padding: 32px;
+}
+
+.navbar {
+  float: right;
+  margin-top: 8px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0px 24px;
+}
+
+.nav-item-link {
+  color: #797979;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.primary-text-color {
+  color: #4e42d9;
+}
+
+.primary-background-color {
+  background-color: #4e42d9;
+}
+
+.btn {
+  padding: 16px 30px;
+  color: white;
+  text-decoration: none;
+  background-color: #4e42d9;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.hero-section {
+  width: 1200px;
+  padding: 0px 20px;
+  /* background-color: red; */
+  margin: 0px auto;
+  margin-bottom: 42px;
+}
+
+.hero-left-container {
+  width: 500px;
+  /* background-color: blue; */
+  padding: 40px 0px;
+}
+
+.hero-heading-container {
+  margin-bottom: 12px;
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  color: #3b3950;
+}
+
+.hero-paragraph-container {
+  margin-bottom: 48px;
+  padding-right: 40px;
+}
+
+.hero-paragraph {
+  font-size: 16px;
+  line-height: 150%;
+  color: #797979;
+}
+
+.hero-paragraph {
+  margin-bottom: 20px;
+}
+
+.secondary-btn {
+  background-color: rgba(78, 66, 217, 0.18);
+  color: #4e42d9;
+  margin-left: 12px;
+}
+
+.hero-image {
+  width: 578px;
+  height: 584px;
+}
+
+.tasks-section {
+  width: 1200px;
+  /* background-color: blue; */
+  margin: 0px auto;
+  margin-bottom: 72px;
+}
+
+.tasks-heading-container {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 177.9%;
+  letter-spacing: 0.01em;
+  color: #3b3950;
+  text-align: center;
+}
+
+.task-container-main {
+  /* background-color: green; */
+  display: inline-block;
+}
+
+.task-item-container {
+  width: 280px;
+  /* background-color: red; */
+  align-items: center;
+  /* margin: 0px 10px; */
+  text-align: center;
+  /* padding: 0px 4px; */
+  margin-right: 25px;
+}
+
+.task-item-container-last {
+  margin-right: 0px;
+}
+
+.task-heading {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #3b3950;
+}
+
+.task-paragraph,
+.section-paragraph {
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #797979;
+}
+
+.tasks-icon {
+  width: 91px;
+  height: 90px;
+}
+
+.task-image-container {
+  margin-bottom: 24px;
+}
+
+.task-heading-container {
+  margin-bottom: 8px;
+}
+
+.blog-section-main {
+  background-color: #f8f8f8;
+  padding: 72px;
+}
+
+.blog-section {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.blog-sub-heading {
+  margin-bottom: 40px;
+}
+
+.blog-card {
+  width: 387px;
+  margin-right: 19px;
+}
+
+.blog-card-last {
+  margin-right: 0px;
+}
+
+.blog-date {
+  margin: 12px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #797979;
+}
+
+.blog-heading {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #3b3950;
+}
+
+.blog-paragraph {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #797979;
+}
+
+.blogs-container {
+  margin-bottom: 87px;
+}
+
+.blog-btn-container {
+  text-align: center;
+}
+
+.footer-main {
+  background-color: #292838;
+  padding: 72px 0px;
+}
+
+.footer-top-container {
+  width: 1200px;
+  /* background-color: red; */
+  margin: 0px auto;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer-paragraph {
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+}
+
+.footer-left {
+  width: 390px;
+}
+
+.footer-list-heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-menu-container {
+  margin-right: 89px;
+  color: white;
+}
+
+.footer-list-item {
+  line-height: 110%;
+  margin-bottom: 16px;
+}
+
+.footer-bottom-container {
+  background-color: #23222f;
+  padding: 19px;
+  text-align: center;
+}
+
+.footer-bottom-paragraph {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
