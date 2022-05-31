@@ -396,13 +396,11 @@
   }
 
   .hero-right-container {
-    /* background-color: red; */
     align-items: center;
     text-align: center;
   }
 
   .hero-left-container {
-    /* background-color: blue; */
     width: 100%;
     text-align: center;
     float: none;
@@ -411,17 +409,14 @@
   }
 
   .tasks-section {
-    /* background-color: aqua; */
     padding: 0px 10px;
   }
 
   .task-container-main {
     width: 100%;
-    /* background-color: purple; */
   }
 
   .task-item-container {
-    /* background-color: orange; */
     margin-bottom: 45px;
     width: 100%;
   }
@@ -431,7 +426,6 @@
   }
 
   .blog-card {
-    /* background-color: aquamarine; */
     max-width: 548px;
     width: 100%;
     margin: 0px auto;
@@ -453,28 +447,24 @@
 
   .footer-menu-container:last-child {
     margin-right: 0px;
-    /* background-color: aquamarine; */
   }
 
   .footer-left {
     display: block;
     width: 100%;
     padding-top: 32px;
+    float: none;
+    margin-bottom: 40px;
   }
 
   .footer-menu {
-    /* background-color: blanchedalmond; */
     display: inline-block;
     float: none;
-    /* text-align: center; */
     margin: 0px auto;
   }
 
   .footer-menu-container {
-    /* float: left; */
     display: inline-block;
-    /* text-align: center; */
-    /* background-color: red; */
     margin: 0px 54px;
     margin-right: 0px;
     text-align: start;
@@ -482,13 +472,6 @@
 
   .footer-menu-container:last-child {
     margin-right: 0px;
-  }
-
-  .footer-left {
-    float: none;
-    margin-bottom: 40px;
-    /* display: inli; */
-    /* background-color: red; */
   }
 
   .footer-main {
@@ -547,17 +530,7 @@
   }
 
   .hero-section {
-    /* background-color: red; */
     padding: 20px;
-  }
-
-  .hero-right-container {
-    /* background-color: green; */
-  }
-
-  .hero-image {
-    /* width: 100%;
-    height: auto; */
   }
 
   .blog-section-main {
@@ -565,26 +538,12 @@
   }
 
   .blog-section {
-    /* background-color: bisque; */
     padding-bottom: 72px;
   }
 
-  .blogs-container {
-    /* background-color: blue; */
-  }
-
-  .thumbnail-img-container {
-    /* background-color: red; */
-  }
-
   .footer-main {
-    /* background-color: gold; */
     padding: 50px 20px;
     padding-bottom: 0px;
-  }
-
-  .footer-top-container {
-    /* background-color: blueviolet; */
   }
 
   .footer-left {
@@ -598,15 +557,10 @@
     margin-bottom: 48px;
     margin-right: 70px;
     float: left;
-    /* background-color: violet; */
-    /* height: 210px; */
-    /* display: inline-block; */
   }
 
   .footer-menu {
     float: none;
-    /* background-color: crimson; */
-    /* width: 100%; */
   }
 
   .footer-menu-container:last-child {
