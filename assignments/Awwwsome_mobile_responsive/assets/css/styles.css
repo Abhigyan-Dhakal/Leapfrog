@@ -32,10 +32,6 @@
   text-align: center;
 }
 
-.mobile-nav-btn {
-  /* background-color: red !important; */
-}
-
 .mob-nav-item {
   margin-bottom: 40px;
 }
@@ -262,6 +258,10 @@
   text-align: center;
 }
 
+.task-container-main {
+  padding: 0px;
+}
+
 .footer-main {
   background-color: #292838;
   padding: 72px 0px;
@@ -418,7 +418,19 @@
 
   .task-item-container {
     margin-bottom: 45px;
-    width: 100%;
+    width: 50%;
+    float: left;
+    height: 240px;
+    margin-right: 0px;
+    min-width: 270px;
+  }
+
+  .task-item-container:nth-child(odd) {
+    float: left;
+  }
+
+  .task-item-container:nth-child(even) {
+    float: right;
   }
 
   .task-item-container:last-child {
@@ -490,6 +502,8 @@
 
   .task-item-container {
     float: none;
+    width: 100%;
+    height: auto;
   }
 
   .blog-card {
@@ -539,6 +553,10 @@
 
   .blog-section {
     padding-bottom: 72px;
+  }
+
+  .task-container-main {
+    width: 100%;
   }
 
   .footer-main {
