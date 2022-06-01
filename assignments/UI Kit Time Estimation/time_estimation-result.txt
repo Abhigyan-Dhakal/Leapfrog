@@ -1,0 +1,27 @@
+Development of Header Component:
+Estimated Time Duration: 15 Minutes
+Development completion time: 13 Minutes
+
+Development of Table Component
+Estimated Time Duration: 15 Minutes
+Development completion time: 17 Minutes
+
+Development of Buttons Component
+Estimated Time Duration: 20 Minutes
+Development completion time: 18 Minutes
+
+Development of Form Components
+Estimated Time Duration: 40 Minutes
+Development completion time: 45 Minutes
+
+Development of List Group Component
+Estimated Time Duration: 10 Minutes
+Development completion time: 7 Minutes
+
+Development of Table Component
+Estimated Time Duration: 20 Minutes
+Development completion time: 16 Minutes
+
+Development of Cards Component
+Estimated Time Duration: 30 Minutes
+Development completion time: 30 Minutes

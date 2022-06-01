@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar clearfix">
+        <div>
+          <div class="logo clearfix">UI Kit</div>
+          <div>
+            <ul class="nav-list">
+              <li class="nav-list-item"><a href="./index.html">Colors</a></li>
+              <li class="nav-list-item">
+                <a href="./typography.html">Typography</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./buttons.html">Buttons</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./forms.html">Forms</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./list-group.html">List Group</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./table.html">Table</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="./card.html">Card</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-search clearfix">
+          <form>
+            <input type="text" placeholder="Search" class="nav-search-input" />
+            <input type="submit" value="Search" class="nav-search-btn" />
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!-- Development of Cards Component -->
+    <!-- Estimated Time Duration: 30 Minutes -->
+    <!-- Development completion time: 30 Minutes -->
+    <section class="section-container top-section-container">
+      <div>
+        <h1 class="page-heading">Card</h1>
+      </div>
+      <div class="ruler"></div>
+      <div class="clearfix">
+        <div class="card float-left">
+          <div class="clearfix card-top-content">
+            <div class="clearfix float-left">
+              <div class="float-left">
+                <img
+                  src="./images/Avatar.png"
+                  alt=""
+                  height="36px"
+                  width="36px"
+                  class="profile-picture"
+                />
+              </div>
+              <div class="float-left">
+                <div>
+                  <b> Stuar Manson </b>
+                </div>
+                <div class="sub-card-topic">Publicado hace 2 horas</div>
+              </div>
+            </div>
+            <div class="float-right">
+              <img src="./assets/images/dots-icon.png" alt="" height="15px" />
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/image-1.png"
+              alt="flowers"
+              class="card-image-flower"
+            />
+          </div>
+          <div class="post-options-container clearfix">
+            <img
+              src="./images/like.svg"
+              alt=""
+              height="22px"
+              width="22px"
+              class="like-icon"
+            />
+            <img
+              src="./images/comment.svg"
+              alt=""
+              height="22px"
+              width="22px"
+              class="comment-icon"
+            />
+            <img
+              src="./images/share.svg"
+              alt=""
+              height="22px"
+              width="22px"
+              class="share-icon"
+            />
+          </div>
+          <div class="clearfix comment-container">
+            <div class="float-left">
+              <img
+                src="./images/comment-avatar.png"
+                alt=""
+                height="20px"
+                width="20px"
+                class="comment-profile-pic"
+              />
+            </div>
+            <div class="float-left">
+              <input
+                type="text"
+                placeholder="Enter your comment"
+                class="comment-input"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="card float-left">
+          <div class="main-img-container">
+            <img src="./images/image-2.png" alt="yoga" class="yoga-card-img" />
+            <div class="play-img-container">
+              <img src="./images/play.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-2-subtitle">
+            <p>Meditaciones en casa</p>
+            <p>Susan Paz</p>
+          </div>
+        </div>
+        <div class="card float-left">
+          <div class="card-top-content">
+            <div class="home-tag-container">Home</div>
+            <div class="card-text-container">
+              <p>
+                <b>Lampara Look </b>
+              </p>
+              <p>by Saca Tuerca</p>
+            </div>
+          </div>
+          <div>
+            <img src="./images/image-3.png" alt="lamp" class="lamp-img" />
+          </div>
+          <div class="bottom-card-container clearfix">
+            <div class="clearfix float-left">
+              <div class="float-left">
+                <img
+                  src="./images/avatar-3.png"
+                  alt=""
+                  height="22px"
+                  width="22px"
+                  class="post-user-profile"
+                />
+              </div>
+              <div class="float-left post-user-name">Felipe Sacudon</div>
+            </div>
+            <div class="clearfix float-right">
+              <div class="clearfix float-left action-counter">
+                <div class="float-left icon-container">
+                  <img
+                    src="./images/comment.svg"
+                    alt=""
+                    height="16px"
+                    width="16px"
+                  />
+                </div>
+                <div class="float-left">22</div>
+              </div>
+              <div class="clearfix float-left action-counter">
+                <div class="float-left icon-container">
+                  <img
+                    src="./images/love.svg"
+                    alt=""
+                    height="16px"
+                    width="16px"
+                  />
+                </div>
+                <div class="float-left">20</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

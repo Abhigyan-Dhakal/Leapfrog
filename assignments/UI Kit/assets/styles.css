@@ -122,7 +122,6 @@ header {
 
 .ruler-tab {
   border-top: 1px solid rgb(228, 228, 228);
-  margin-left: 76px;
   margin-top: -1px;
   width: 530px;
 }
@@ -201,9 +200,6 @@ header {
 .active-component {
   background-color: #7749f8;
   color: white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  /* border: 1px solid #7749f8; */
 }
 
 .content-date {
