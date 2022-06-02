@@ -1,0 +1,38 @@
+.branch {
+  background-color: #252b42;
+  color: white;
+}
+
+.branch__img-container {
+  margin: 0px auto;
+  max-width: 414px;
+  width: 100%;
+}
+
+.branch__img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1049px) {
+  .section__heading-branch {
+    text-align: left;
+  }
+
+  .section__paragraph-branch {
+    text-align: left;
+  }
+
+  .section__top-branch-container {
+    float: left;
+  }
+
+  .branch__img-container {
+    float: right;
+    margin-top: 22px;
+  }
+
+  .branch {
+    height: 90vh;
+  }
+}

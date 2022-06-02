@@ -1,0 +1,260 @@
+header {
+  /* height: 80vh; */
+  /* background-color: red; */
+  background-color: #252b42;
+  padding: 20px 0px;
+}
+
+.header__container {
+  max-width: 1049px;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: white;
+  text-align: center;
+  /* padding: 20px 0px; */
+}
+
+.navbar__list {
+  list-style: none;
+}
+
+.navbar__item {
+  text-align: center;
+  margin: 20px 0px;
+  float: none;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__icon-container {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.navbar__icon-container-individual {
+  margin: 20px 0px;
+}
+
+.header__mid {
+  max-width: 800px;
+  width: 100%;
+  /* background-color: blue; */
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 192px;
+  display: none;
+}
+
+.header__mid.header__mid-mobile {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__heading-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.header__para-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.header__heading-container {
+  margin-bottom: 12px;
+}
+
+.header__para-container {
+  max-width: 500px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 22px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  border-radius: 37px;
+  color: #ffffff;
+  margin: 0px 4px;
+}
+
+.btn--primary {
+  background: #ffa62b;
+}
+
+.btn--secondary {
+  border: 1px solid white;
+}
+
+.navbar {
+  display: none;
+}
+
+.hero__container {
+  height: 80vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/cover.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+.header__mid.header__mid-mobile {
+  display: block;
+}
+.header__mid {
+  padding: 0px 12px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 92vh;
+    background-color: blue;
+    padding: 0px 30px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/cover.png");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 36px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    border-radius: 37px;
+    margin: 0px 8px;
+    color: #ffffff;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .header__heading-container {
+    margin-bottom: 40px;
+  }
+
+  .header__heading-text {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+
+  .header__para-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #ffffff;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .navbar {
+    float: right;
+  }
+
+  .navbar__item {
+    text-align: left;
+    margin: 0px;
+    float: left;
+    margin-right: 21px;
+  }
+
+  .navbar__icon-container {
+    float: left;
+    margin: 0px;
+  }
+
+  .navbar__container {
+    float: left;
+  }
+
+  .navbar__icon-container-individual {
+    margin: 0px;
+    float: left;
+  }
+
+  .header__top {
+    padding: 35px;
+  }
+
+  .header__mid {
+    display: block;
+  }
+
+  .navbar__icon-container {
+    margin-left: 39px;
+  }
+
+  .navbar__icon-container-individual {
+    margin-right: 22px;
+  }
+
+  .navbar__icon-cart {
+    height: 17px;
+    width: 18px;
+    margin-top: 1px;
+  }
+
+  .navbar {
+    margin-top: 8px;
+  }
+
+  .hero__container {
+    display: none;
+  }
+}
