@@ -54,6 +54,8 @@
 
 .achievement__top-container {
   margin-bottom: 120px;
+  position: relative;
+  z-index: 2;
 }
 
 .achievement__main-card-container {
