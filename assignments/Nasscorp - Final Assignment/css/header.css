@@ -1,8 +1,8 @@
 header {
-  /* height: 80vh; */
-  /* background-color: red; */
   background-color: #252b42;
   padding: 20px 0px;
+  position: relative;
+  z-index: 2;
 }
 
 .header__container {
@@ -19,7 +19,6 @@ header {
   letter-spacing: 0.1px;
   color: white;
   text-align: center;
-  /* padding: 20px 0px; */
 }
 
 .navbar__list {
@@ -37,6 +36,16 @@ header {
   text-decoration: none;
 }
 
+.navbar__active {
+  color: #ffa62b;
+}
+
+.navbar__link:hover {
+  color: #ffa62b;
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
 .navbar__icon-container {
   text-align: center;
   margin: 20px 0px;
@@ -46,10 +55,15 @@ header {
   margin: 20px 0px;
 }
 
+.hamburger {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+
 .header__mid {
   max-width: 800px;
   width: 100%;
-  /* background-color: blue; */
   text-align: center;
   position: absolute;
   left: 50%;
@@ -112,8 +126,19 @@ header {
   background: #ffa62b;
 }
 
+.btn--primary:hover {
+  background: #d4810c;
+  transition: 0.2s ease-in-out;
+}
+
 .btn--secondary {
   border: 1px solid white;
+}
+
+.btn--secondary:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s ease-in-out;
 }
 
 .navbar {
@@ -136,14 +161,26 @@ header {
 .header__mid.header__mid-mobile {
   display: block;
 }
+
 .header__mid {
   padding: 0px 12px;
 }
 
+.toggle-nav {
+  display: block;
+}
+
+.header__top {
+  position: relative;
+  z-index: 10;
+}
+
 @media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
   header {
     height: 92vh;
-    background-color: blue;
     padding: 0px 30px;
     background-image: linear-gradient(
         to bottom,

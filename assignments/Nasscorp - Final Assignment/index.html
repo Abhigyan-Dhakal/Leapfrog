@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="./css/team.css" />
     <link rel="stylesheet" href="./css/branch.css" />
     <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/clients.css" />
     <title>Nasscorp</title>
   </head>
   <body>
@@ -29,7 +31,7 @@
             <div class="navbar__container">
               <ul class="navbar__list">
                 <li class="navbar__item clearfix">
-                  <a href="" class="navbar__link">Home</a>
+                  <a href="" class="navbar__link navbar__active">Home</a>
                 </li>
                 <li class="navbar__item">
                   <a href="" class="navbar__link">Product</a>
@@ -63,9 +65,7 @@
             </div>
           </nav>
           <div class="hamburger">
-            <div class="hamburger__bar"></div>
-            <div class="hamburger__bar"></div>
-            <div class="hamburger__bar"></div>
+            <img src="./images/hamburger.svg" alt="" />
           </div>
         </div>
         <div class="header__mid">
@@ -110,7 +110,7 @@
     </section>
     <section class="achievement-section">
       <div class="achievement__top-container clearfix">
-        <!-- 1 -->
+        <!-- Achievement card 4 -->
         <div class="clearfix achievement__card">
           <div class="achievement_img-container float-left">
             <img
@@ -126,7 +126,7 @@
             <div class="achievement__desc">HAPPY CUSTOMERS</div>
           </div>
         </div>
-        <!-- 2 -->
+        <!-- Achievement card 2 -->
         <div class="clearfix achievement__card">
           <div class="achievement_img-container float-left">
             <img src="./images/cases.svg" alt="" class="achievement__icon" />
@@ -138,7 +138,7 @@
             <div class="achievement__desc">CASES DONE</div>
           </div>
         </div>
-        <!-- 3 -->
+        <!-- Achievement card 3 -->
         <div class="clearfix achievement__card">
           <div class="achievement_img-container float-left">
             <img src="./images/award.svg" alt="" class="achievement__icon" />
@@ -150,7 +150,7 @@
             <div class="achievement__desc">AWARD WINNING</div>
           </div>
         </div>
-        <!-- 4 -->
+        <!-- Achievement card 4 -->
         <div class="clearfix achievement__card">
           <div class="achievement_img-container float-left">
             <img
@@ -168,6 +168,7 @@
         </div>
       </div>
       <div class="achievement__bottom-container clearfix">
+        <!-- Achievement main card 1 -->
         <div class="achievement__main-card-container">
           <div class="achievement__main-card">
             <div class="achievement__main-icon-container">
@@ -175,6 +176,15 @@
                 src="./images/case.svg"
                 alt="suitcase"
                 class="achievement__main-icon"
+              />
+            </div>
+            <div
+              class="achievement__main-icon-container achievement__main-icon-container-hover"
+            >
+              <img
+                src="./images/case-hover.svg"
+                alt="suitcase"
+                class="achievement__main-icon achievement__main-icon-hover"
               />
             </div>
             <div class="achievement__main-text">
@@ -188,12 +198,60 @@
               </div>
             </div>
             <div class="achievement__btn-container">
-              <a href="" class="btn btn--more">More</a>
+              <a href="" class="btn btn--more"
+                >More<img
+                  src="./images/arrow.svg"
+                  alt="arrow"
+                  class="arrow-icon"
+                />
+              </a>
             </div>
           </div>
         </div>
 
-        <!-- 2 -->
+        <!-- Achievement main card 2 -->
+        <div class="achievement__main-card-container">
+          <div class="achievement__main-card">
+            <div
+              class="achievement__main-icon-container digital-marketing-icon"
+            >
+              <img
+                src="./images/digital-marketing.svg"
+                alt="suitcase"
+                class="achievement__main-icon"
+              />
+            </div>
+            <div
+              class="achievement__main-icon-container digital-marketing-icon achievement__main-icon-container-hover"
+            >
+              <img
+                src="./images/digital-marketing-hover.svg"
+                alt="suitcase"
+                class="achievement__main-icon achievement__main-icon-hover"
+              />
+            </div>
+
+            <div class="achievement__main-text">
+              <div>
+                <h2 class="achievement__main-heading">Digital Marketing</h2>
+              </div>
+              <div>
+                <p class="achievement__main-paragraph">
+                  the quick fox jumps over the lazy dog
+                </p>
+              </div>
+            </div>
+            <div class="achievement__btn-container">
+              <a href="" class="btn btn--more"
+                >More<img
+                  src="./images/arrow.svg"
+                  alt="arrow"
+                  class="arrow-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Achievement main card 3 -->
         <div class="achievement__main-card-container">
           <div class="achievement__main-card">
             <div class="achievement__main-icon-container">
@@ -203,34 +261,18 @@
                 class="achievement__main-icon"
               />
             </div>
-            <div class="achievement__main-text">
-              <div>
-                <h2 class="achievement__main-heading">Business Growing</h2>
-              </div>
-              <div>
-                <p class="achievement__main-paragraph">
-                  the quick fox jumps over the lazy dog
-                </p>
-              </div>
-            </div>
-            <div class="achievement__btn-container">
-              <a href="" class="btn btn--more">More</a>
-            </div>
-          </div>
-        </div>
-        <!-- 3 -->
-        <div class="achievement__main-card-container">
-          <div class="achievement__main-card">
-            <div class="achievement__main-icon-container">
+            <div
+              class="achievement__main-icon-container achievement__main-icon-container-hover"
+            >
               <img
-                src="./images/case.svg"
+                src="./images/case-hover.svg"
                 alt="suitcase"
-                class="achievement__main-icon"
+                class="achievement__main-icon achievement__main-icon-hover"
               />
             </div>
             <div class="achievement__main-text">
               <div>
-                <h2 class="achievement__main-heading">Business Growing</h2>
+                <h2 class="achievement__main-heading">National top 50 firms</h2>
               </div>
               <div>
                 <p class="achievement__main-paragraph">
@@ -239,23 +281,37 @@
               </div>
             </div>
             <div class="achievement__btn-container">
-              <a href="" class="btn btn--more">More</a>
+              <a href="" class="btn btn--more"
+                >More<img
+                  src="./images/arrow.svg"
+                  alt="arrow"
+                  class="arrow-icon"
+              /></a>
             </div>
           </div>
         </div>
-        <!--  -->
+        <!-- Achievement main card 4 -->
         <div class="achievement__main-card-container">
           <div class="achievement__main-card">
             <div class="achievement__main-icon-container">
               <img
-                src="./images/case.svg"
+                src="./images/notebook.svg"
                 alt="suitcase"
-                class="achievement__main-icon"
+                class="achievement__main-icon notebook-icon"
+              />
+            </div>
+            <div
+              class="achievement__main-icon-container achievement__main-icon-container-hover"
+            >
+              <img
+                src="./images/notebook-hover.svg"
+                alt="suitcase"
+                class="achievement__main-icon achievement__main-icon-hover notebook-icon"
               />
             </div>
             <div class="achievement__main-text">
               <div>
-                <h2 class="achievement__main-heading">Business Growing</h2>
+                <h2 class="achievement__main-heading">Digital Marketing</h2>
               </div>
               <div>
                 <p class="achievement__main-paragraph">
@@ -264,13 +320,15 @@
               </div>
             </div>
             <div class="achievement__btn-container">
-              <a href="" class="btn btn--more">More</a>
+              <a href="" class="btn btn--more"
+                >More<img
+                  src="./images/arrow.svg"
+                  alt="arrow"
+                  class="arrow-icon"
+              /></a>
             </div>
           </div>
         </div>
-        <!-- <div></div>
-        <div></div>
-        <div></div> -->
       </div>
     </section>
     <section class="services">
@@ -297,11 +355,13 @@
                 class="services__image"
               />
               <div>
-                <img
-                  src="./images/play.svg"
-                  alt=""
-                  class="services__image-play"
-                />
+                <a href="#">
+                  <img
+                    src="./images/play.svg"
+                    alt=""
+                    class="services__image-play"
+                  />
+                </a>
               </div>
             </div>
             <div class="services__text-container">
@@ -365,6 +425,131 @@
         </div>
       </div>
     </section>
+    <!-- Carousel slider -->
+    <section class="clients">
+      <div class="section__container">
+        <div class="section__top-container">
+          <div class="services__heading-container">
+            <h1 class="section__heading">What Clients Say</h1>
+          </div>
+          <div class="services__paragraph-container">
+            <p class="section__paragraph">
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix client__carousel-container">
+        <div class="arrows arrow--left"><</div>
+        <div class="arrows arrow--right">></div>
+        <div class="client__main-card-container client__container-1">
+          <div class="achievement__main-card client__main-card">
+            <div class="client__image-container">
+              <img
+                src="./images/user-profile-1.png"
+                alt=""
+                class="client__image"
+              />
+            </div>
+            <div>
+              <div>
+                <h1 class="client__heading">Regina Miles</h1>
+              </div>
+              <div>
+                <p class="client__sub">Designer</p>
+              </div>
+            </div>
+            <div class="card__rating-container">
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/empty-star.svg" alt="" />
+            </div>
+            <div>
+              <p class="client__para">
+                This proved to be impossible using the traditional concepts of
+                space and time. Einstein developed a new view of time first and
+                then space. This proved to be impossible using the traditional
+                concepts of space and time. Einstein developed a new view of
+                time first and then space.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="client__main-card-container client__container-2">
+          <div class="achievement__main-card client__main-card">
+            <div class="client__image-container">
+              <img
+                src="./images/user-profile-2.png"
+                alt=""
+                class="client__image"
+              />
+            </div>
+            <div>
+              <div>
+                <h1 class="client__heading">Regina Miles</h1>
+              </div>
+              <div>
+                <p class="client__sub">Designer</p>
+              </div>
+            </div>
+            <div class="card__rating-container">
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/empty-star.svg" alt="" />
+            </div>
+            <div>
+              <p class="client__para">
+                This proved to be impossible using the traditional concepts of
+                space and time. Einstein developed a new view of time first and
+                then space. This proved to be impossible using the traditional
+                concepts of space and time. Einstein developed a new view of
+                time first and then space.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="client__main-card-container client__container-3">
+          <div class="achievement__main-card client__main-card">
+            <div class="client__image-container">
+              <img
+                src="./images/user-profile-1.png"
+                alt=""
+                class="client__image"
+              />
+            </div>
+            <div>
+              <div>
+                <h1 class="client__heading">Regina Miles</h1>
+              </div>
+              <div>
+                <p class="client__sub">Designer</p>
+              </div>
+            </div>
+            <div class="card__rating-container">
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/full-star.svg" alt="" />
+              <img src="./images/empty-star.svg" alt="" />
+            </div>
+            <div>
+              <p class="client__para">
+                This proved to be impossible using the traditional concepts of
+                space and time. Einstein developed a new view of time first and
+                then space. This proved to be impossible using the traditional
+                concepts of space and time. Einstein developed a new view of
+                time first and then space.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="team">
       <div class="section__container">
         <div class="section__top-container">
@@ -378,7 +563,6 @@
             </p>
           </div>
         </div>
-        <!--  -->
         <div class="achievement__bottom-container clearfix">
           <div class="achievement__main-card-container">
             <div class="achievement__main-card team__main-card">
@@ -404,8 +588,6 @@
               </div>
             </div>
           </div>
-
-          <!-- 2 -->
           <div class="achievement__main-card-container">
             <div class="achievement__main-card team__main-card">
               <div>
@@ -430,7 +612,6 @@
               </div>
             </div>
           </div>
-          <!-- 3 -->
           <div class="achievement__main-card-container">
             <div class="achievement__main-card team__main-card">
               <div>
@@ -455,7 +636,6 @@
               </div>
             </div>
           </div>
-          <!--  -->
           <div class="achievement__main-card-container">
             <div class="achievement__main-card team__main-card">
               <div>
@@ -480,9 +660,6 @@
               </div>
             </div>
           </div>
-          <!-- <div></div>
-        <div></div>
-        <div></div> -->
         </div>
       </div>
     </section>
@@ -566,76 +743,128 @@
     </section>
     <footer>
       <div class="section__container">
-        <div>
-          <div></div>
-          <div>
-            <!--  -->
+        <div class="footer__top-container clearfix">
+          <div class="footer__socials-container">
+            <div class="footer__heading-container">
+              <h2 class="footer__heading">Get in Touch</h2>
+            </div>
+            <div class="footer__paragraph-container">
+              <p class="footer__sub">the quick fox jumps over the lazy dog</p>
+            </div>
             <div>
-              <div>Company info</div>
+              <div class="footer__icon-container">
+                <a href="" class="footer__icon-link">
+                  <img
+                    src="./images/facebook.svg"
+                    alt="facebook"
+                    class="footer__icon"
+                  />
+                </a>
+              </div>
+              <div class="footer__icon-container">
+                <a href="#" class="footer__icon-link">
+                  <img
+                    src="./images/instagram.svg"
+                    alt="instagram"
+                    class="footer__icon"
+                  />
+                </a>
+              </div>
+              <div class="footer__icon-container">
+                <a href="#" class="footer__icon-link">
+                  <img
+                    src="./images/twitter.svg"
+                    alt="twitter"
+                    class="footer__icon"
+                  />
+                </a>
+              </div>
+              <div class="footer__icon-container">
+                <a href="#" class="footer__icon-link">
+                  <img
+                    src="./images/youtube.svg"
+                    alt="youtube"
+                    class="footer__icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__links-container">
+            <div class="footer__right-lists">
               <div>
-                <ul>
-                  <li>
-                    <a href="">About Us</a>
+                <h2 class="footer__heading footer__list-heading">
+                  Company info
+                </h2>
+              </div>
+              <div>
+                <ul class="footer__list">
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">About Us</a>
                   </li>
-                  <li>
-                    <a href="">Carrier</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Carrier</a>
                   </li>
-                  <li>
-                    <a href="">We are hiring</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">We are hiring</a>
                   </li>
-                  <li>
-                    <a href="">Blog</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Blog</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <!--  -->
-            <div>
-              <div>Features</div>
+            <div class="footer__right-lists">
               <div>
-                <ul>
-                  <li>
-                    <a href="">Business Marketing</a>
+                <h2 class="footer__heading footer__list-heading">Features</h2>
+              </div>
+              <div>
+                <ul class="footer__list">
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Business Marketing</a>
                   </li>
-                  <li>
-                    <a href="">User Analytic</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">User Analytic</a>
                   </li>
-                  <li>
-                    <a href="">Live Chat</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Live Chat</a>
                   </li>
-                  <li>
-                    <a href="">Unlimited Support</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Unlimited Support</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <!--  -->
-            <div>
-              <div>Resources</div>
+            <div class="footer__right-lists">
               <div>
-                <ul>
-                  <li>
-                    <a href="">IOS & Android</a>
+                <h2 class="footer__heading footer__list-heading">Resources</h2>
+              </div>
+              <div>
+                <ul class="footer__list">
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">IOS & Android</a>
                   </li>
-                  <li>
-                    <a href="">Watch a Demo</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Watch a Demo</a>
                   </li>
-                  <li>
-                    <a href="">Customers</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">Customers</a>
                   </li>
-                  <li>
-                    <a href="">API</a>
+                  <li class="footer__list-sub">
+                    <a href="" class="footer__sub">API</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <!-- footerbtm -->
-        <div>
-          <p>Made With Love By Figmaland All Right Reserved</p>
-        </div>
+      </div>
+      <div class="footer__bottom-container">
+        <p class="footer__sub-text sub--secondary">
+          Made With Love By Figmaland All Right Reserved
+        </p>
       </div>
     </footer>
   </body>
+  <script src="./js/app.js"></script>
 </html>

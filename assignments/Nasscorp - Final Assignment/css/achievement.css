@@ -1,6 +1,5 @@
 .achievement-section {
   background-color: #252b42;
-  /* background-color: red; */
   padding: 24px 20px;
 }
 
@@ -49,7 +48,7 @@
   max-width: 380px;
   width: 100%;
   margin: 0px auto;
-  padding: 40px;
+  padding: 40px 14px 40px 40px;
   background-color: white;
 }
 
@@ -59,12 +58,54 @@
 
 .achievement__main-card-container {
   margin-bottom: 28px;
+  cursor: pointer;
 }
 
+.digital-marketing-icon {
+  margin-bottom: 37px;
+}
+
+.notebook-icon {
+  margin-bottom: 3px;
+}
+
+.achievement__main-card-container:hover .achievement__main-card {
+  background-color: #00a0c1;
+  color: white;
+}
+
+.achievement__main-card-container:hover .btn--more {
+  background-color: white;
+  color: #00a0c1;
+}
+
+.achievement__main-icon-container-hover {
+  display: none;
+}
+
+.achievement__main-card-container:hover .achievement__main-icon-container {
+  display: none;
+}
+
+.achievement__main-card-container:hover
+  .achievement__main-icon-container-hover {
+  display: block;
+}
+
+.achievement__main-card-container:hover .team__name {
+  color: white;
+}
+
+.achievement__main-card-container:hover .team__bio {
+  color: white;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+}
 @media screen and (min-width: 768px) {
   .achievement__top-container {
     max-width: 1049px;
-    /* background-color: red; */
     margin: 0px auto;
     margin-bottom: 120px;
     text-align: center;
@@ -78,7 +119,6 @@
   }
 
   .achievement__desc {
-    /* background-color: blue; */
     max-width: 120px;
     margin: 0px auto;
   }
@@ -98,35 +138,19 @@
 
   .achievement__bottom-container {
     max-width: 1049px;
-    /* background-color: red; */
     margin: auto;
-  }
-
-  .achievement__bottom-container {
-    /* background-color: red; */
   }
 
   .achievement__main-card-container {
     padding: 0px 20px;
-    /* background-color: blue; */
-
     width: calc(100% / 2);
     float: left;
   }
 
   .achievement__main-card {
-    padding: 40px;
-
-    /* width: auto; */
-    /* max-width: 230px; */
-    /* margin: 0px; */
-    /* float: left; */
     max-width: 380px;
     width: 100%;
     margin: 0px auto;
-    /* max-width: auto; */
-    /* width: calc(100% / 3); */
-    /* background-color: red; */
   }
 }
 
@@ -161,7 +185,6 @@
 
   .achievement__main-card-container {
     padding: 0px 20px;
-    /* background-color: blue; */
     margin-bottom: none;
     width: calc(100% / 4);
     float: left;

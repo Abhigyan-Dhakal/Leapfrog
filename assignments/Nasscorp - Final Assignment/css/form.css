@@ -4,7 +4,6 @@
 
 .section__form-container {
   padding: 20px 20px;
-  /* background-color: red; */
 }
 
 .form__container {
@@ -13,8 +12,6 @@
 }
 
 .form__input {
-  /* max-width: 585px; */
-  /* width: 100%; */
   padding: 11px 21px;
   margin: 10px 0px 12px 0px;
   border: 1px solid #bdbdbd;
@@ -37,7 +34,6 @@
 
 .form__img-container {
   display: none;
-  /* margin-right: 52px; */
 }
 
 .form__submit {
@@ -65,12 +61,8 @@
 @media screen and (min-width: 768px) {
   .form__img-container {
     display: block;
-    /* margin-right: 52px; */
     float: left;
     width: 33.33%;
-    /* min-height: 80vh;
-    height: 100%; */
-    /* background: url("../images/form-img.png"); */
   }
 
   .form__container {
@@ -87,11 +79,8 @@
   .form__body {
     padding: 20px 32px;
     float: left;
-    /* width: calc(100% / 2); */
     width: 66.66%;
     float: left;
-    /* background-color: blue; */
-    /* padding: 20px; */
   }
 
   .form__input {
@@ -102,7 +91,6 @@
 @media screen and (min-width: 1049px) {
   .form__container {
     margin-top: -260px;
-    /* background-color: rgb(54, 54, 54); */
   }
 
   .form__input {
@@ -112,7 +100,6 @@
 
   .form__body {
     padding: 40px 52px;
-    /* background-color: red; */
   }
 
   .section__heading-form {

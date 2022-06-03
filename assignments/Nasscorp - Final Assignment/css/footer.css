@@ -1,0 +1,137 @@
+footer {
+  background-color: #252b42;
+  color: white;
+}
+
+.footer__top-container {
+  padding: 0px 10px;
+}
+
+.footer__heading {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+}
+
+.footer__sub {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__sub:hover {
+  color: #e78f14;
+  transition: color 0.2s ease;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__icon-container {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer__icon-container:last-child {
+  display: inline-block;
+  margin-right: 0px;
+}
+
+.footer__socials-container {
+  text-align: center;
+}
+
+.footer__heading-container,
+.footer__paragraph-container {
+  margin-bottom: 25px;
+}
+
+.footer__list-heading {
+  margin-bottom: 20px;
+}
+
+.footer__list-sub {
+  margin-bottom: 10px;
+}
+
+.footer__bottom-container {
+  background-color: #384163;
+  padding: 25px 0px;
+}
+
+.sub--secondary {
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.footer__right-lists {
+  text-align: center;
+  margin: 30px 0px 20px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__socials-container {
+    text-align: left;
+    max-width: 210px;
+    float: left;
+  }
+
+  .footer__links-container {
+    float: right;
+  }
+
+  .footer__right-lists {
+    float: right;
+    margin: 0px;
+    margin-left: 32px;
+    text-align: left;
+  }
+
+  .footer__heading {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1049px) {
+  .footer__top-container {
+    padding: 40px 80px;
+  }
+
+  .footer__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+  }
+
+  .footer__sub {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer__sub-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer__right-lists {
+    float: right;
+    margin-left: 58px;
+  }
+}
