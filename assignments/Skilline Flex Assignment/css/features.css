@@ -1,0 +1,128 @@
+.section__features {
+  padding: 0px 20px;
+}
+
+.features__heading-container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feature__img-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.feature__img-second-container {
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.feature__img-third-container {
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.feature__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.feature__img {
+  width: 100%;
+}
+
+.feature__icon-container {
+  margin-right: 30px;
+}
+
+.feature__main-container {
+  padding: 52px 0px;
+}
+
+.feature__heading-container {
+  margin-bottom: 36px;
+}
+
+.feature__heading {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  color: #2f327d;
+}
+
+.feature__heading span {
+  color: #f48c06;
+}
+
+.feature__list-text {
+  font-size: 22px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+
+.feature__para {
+  font-size: 22px;
+  line-height: 180%;
+  /* or 40px */
+
+  letter-spacing: 0.02em;
+
+  color: #696984;
+}
+
+.features__more-btn-container {
+  text-align: center;
+}
+
+.features__more-btn {
+  display: inline;
+  font-size: 22px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #f48c06;
+  border: 1px solid #f48c06;
+  border-radius: 84px;
+  padding: 14px 32px;
+  text-decoration: none;
+}
+
+.features__more-btn:hover {
+  background-color: #f48c06;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 991px) {
+  .feature__img-container {
+    margin: 0px;
+  }
+
+  .feature__main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature__text-container {
+    max-width: 520px;
+    /* margin-top: 50px; */
+  }
+
+  .feature__img-container {
+    margin-right: 60px;
+  }
+
+  .feature__img-second-container {
+    margin: 0px 30px;
+  }
+
+  .feature__text-container-second {
+    margin: 0px 30px;
+  }
+}

@@ -1,0 +1,31 @@
+.section__companies {
+  padding: 60px 20px;
+}
+
+.companies__heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #696984;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.companies__main-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.companies__img-container {
+  margin: 16px 16px;
+}
+
+@media screen and (min-width: 991px) {
+  .section__companies {
+    padding: 100px 20px;
+  }
+}

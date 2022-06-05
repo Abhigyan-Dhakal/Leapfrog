@@ -1,0 +1,86 @@
+.section__services {
+  padding: 0px 20px;
+}
+
+.services__heading-container {
+  max-width: 840px;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services__card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services__card {
+  margin: 0px 20px;
+  padding: 50px 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  margin-top: 90px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.card__heading-container {
+  margin-bottom: 24px;
+}
+
+.card__heading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #2f327d;
+}
+
+.card__para-container {
+  margin-bottom: 24px;
+}
+
+.card__para {
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+  color: #696984;
+}
+
+.card__img {
+  margin-top: -130px;
+}
+
+.section__heading-container {
+  margin-bottom: 20px;
+}
+
+.section__heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 180%;
+  color: #2f327d;
+}
+
+.section__para {
+  font-size: 24px;
+  line-height: 180%;
+  text-align: center;
+  color: #696984;
+}
+
+.section__heading > span {
+  color: #f48c06;
+}
+
+@media screen and (min-width: 991px) {
+  .services__card {
+    max-width: 430px;
+  }
+}

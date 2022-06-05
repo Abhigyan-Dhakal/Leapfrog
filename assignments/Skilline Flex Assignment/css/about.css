@@ -1,0 +1,132 @@
+.section__about {
+  padding: 120px 20px;
+  padding-bottom: 79px;
+}
+
+.about__img-container {
+  max-width: 550px;
+  position: relative;
+}
+
+.about__img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.about__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.about__card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 140px;
+}
+
+.about__card {
+  margin: 0px 20px;
+}
+
+.about__video-container {
+  position: relative;
+  max-width: 670px;
+}
+
+.about__video {
+  width: 100%;
+}
+
+.about__play-icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about__left-section {
+  text-align: center;
+}
+
+.about__info-btn {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 24px;
+  border: 1px solid white;
+  border-radius: 80px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.about__info-btn:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+.about__info-heading {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.about__btm-heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  color: #2f327d;
+}
+
+.about__btm-heading > span {
+  color: #f48c06;
+}
+
+.about__btm-para-container {
+  margin-bottom: 30px;
+}
+
+.about__btm-para {
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+
+.about__link {
+  font-size: 22px;
+  line-height: 180%;
+  color: #696984;
+}
+
+@media screen and (min-width: 991px) {
+  .about__left-section {
+    text-align: left;
+    max-width: 690px;
+  }
+
+  .about__body-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__left-section,
+  .about__video-container {
+    margin: 0px 10px;
+  }
+
+  .about__info-btn {
+    padding: 8px 12px;
+  }
+}
