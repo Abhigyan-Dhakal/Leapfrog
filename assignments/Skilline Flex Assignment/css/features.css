@@ -42,6 +42,7 @@
 
 .feature__main-container {
   padding: 52px 0px;
+  text-align: center;
 }
 
 .feature__heading-container {
@@ -107,6 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
   }
 
   .feature__text-container {

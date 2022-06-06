@@ -1,3 +1,59 @@
-.section_integrations {
+.section__integrations {
   padding: 50px 20px;
+}
+
+.integrations__heading {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2em;
+
+  color: #525596;
+}
+
+.integrations__line {
+  border-top: 1px solid #525596;
+  width: 80px;
+  margin-top: 12px;
+  margin-right: 18px;
+}
+
+.integrations__heading-container {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.integrations-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 160%;
+  color: #2f327d;
+}
+
+.integrations__para-container {
+  margin-bottom: 44px;
+}
+
+.integrations__para {
+  font-size: 24px;
+  line-height: 180%;
+  color: #696984;
+}
+
+.integrations__text-container {
+  max-width: 520px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.integrations__img-container {
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 991px) {
+  .integrations__text-container,
+  .integrations__img-container {
+    margin: 0px 60px;
+    text-align: left;
+  }
 }

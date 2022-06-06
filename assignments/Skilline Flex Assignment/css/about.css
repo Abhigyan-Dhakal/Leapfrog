@@ -37,6 +37,7 @@
 .about__video-container {
   position: relative;
   max-width: 670px;
+  margin: 0px auto;
 }
 
 .about__video {
@@ -58,12 +59,12 @@
   color: white;
   display: inline-block;
   text-decoration: none;
-  padding: 20px 24px;
+  padding: 16px 20px;
   border: 1px solid white;
   border-radius: 80px;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 18px;
+  line-height: 25px;
   text-align: center;
 }
 
