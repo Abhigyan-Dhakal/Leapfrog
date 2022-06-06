@@ -52,6 +52,7 @@
   position: absolute;
   right: 0px;
   border: 1px solid #f48c06;
+  cursor: pointer;
 }
 
 .testimonial__btn-icon {
@@ -157,6 +158,16 @@
   font-size: 18px;
   line-height: 160%;
   color: #5f5f7e;
+}
+
+.testimonial__btn:hover {
+  background-color: #f5ce7a;
+  transition: 0.3s ease-in-out;
+}
+
+.next-btn:hover .next-container {
+  background-color: #fdca86;
+  transition: 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 991px) {
