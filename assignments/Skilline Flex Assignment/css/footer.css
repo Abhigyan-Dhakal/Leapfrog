@@ -1,0 +1,133 @@
+.section__footer {
+  padding: 40px 20px;
+  background-color: #252641;
+  color: white;
+}
+
+.footer__logo-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-left: -20px;
+  margin-top: -6px;
+}
+
+.footer__heading-text h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+}
+
+.footer__top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__top-container {
+  margin-bottom: 80px;
+}
+
+.footer__input {
+  background-color: transparent;
+  border: 1px solid #83839a;
+  border-radius: 80px;
+  padding: 12px 26px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px 10px;
+  margin-bottom: 16px;
+}
+
+.footer__submit-btn {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  border: none;
+  background: linear-gradient(105.5deg, #545ae7 19.57%, #393fcf 78.85%);
+  border-radius: 60px;
+  padding: 6px 30px;
+  margin: 0px 10px;
+  margin-bottom: 16px;
+}
+
+.footer__form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__navigation {
+  margin-bottom: 20px;
+}
+
+.footer__links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__link {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #b2b3cf;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__link-container {
+  margin: 16px 0px;
+}
+
+.footer__form-container {
+  margin-bottom: 68px;
+}
+
+.footer__bottom-text {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #b2b3cf;
+}
+
+@media screen and (min-width: 991px) {
+  .footer__top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__bar {
+    height: 83px;
+    width: 1px;
+    background-color: #626381;
+    margin-right: 50px;
+  }
+
+  .footer__links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__link-bar {
+    height: 17px;
+    width: 1px;
+    background-color: #626381;
+    margin: 0px 20px;
+  }
+}
