@@ -216,8 +216,29 @@ header {
   letter-spacing: 0.02em;
   color: #545567;
 }
+.hamburger {
+  position: absolute;
+  right: 60px;
+  top: 65px;
+}
+
+.navbar {
+  display: none;
+}
+
+.toggle-nav {
+  display: block;
+}
 
 @media screen and (min-width: 991px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+
   .navbar__btn-container {
     margin-top: 0px;
   }
