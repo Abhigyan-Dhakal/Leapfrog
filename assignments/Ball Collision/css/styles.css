@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  position: relative;
+  /* height: 716px;
+  width: 1530px; */
+  height: 100vh;
+  border: 1px solid rgb(105, 105, 105);
+  overflow: hidden;
+}
