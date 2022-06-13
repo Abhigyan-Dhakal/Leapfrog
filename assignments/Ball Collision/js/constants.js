@@ -12,4 +12,13 @@ const ballVelocityRange = {
   max: 4,
 };
 
-const colorArray = ["#5ADBFF", "#FFDD4A", "#094074", "#FE9000", "#53DD6C"];
+const colorArray = [
+  "#5ADBFF",
+  "#FFDD4A",
+  "#094074",
+  "#FE9000",
+  "#53DD6C",
+  "#F6AE2D",
+  "#DB324D",
+  "#4281A4",
+];
