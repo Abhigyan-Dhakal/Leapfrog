@@ -8,4 +8,4 @@ const container4 = document.querySelector(".carousel-container-4");
 const carouselObj1 = new Carousel(container1, 3000, 2000);
 const carouselObj2 = new Carousel(container2, 9000, 1000);
 const carouselObj3 = new Carousel(container3, 6000, 800);
-const carouselObj4 = new Carousel(container4, 4000, 1500);
+const carouselObj4 = new Carousel(container4, 3000, 1500);
