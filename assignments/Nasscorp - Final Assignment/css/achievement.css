@@ -105,6 +105,7 @@
 .arrow-icon {
   margin-left: 5px;
 }
+
 @media screen and (min-width: 768px) {
   .achievement__top-container {
     max-width: 1049px;
